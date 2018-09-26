@@ -925,7 +925,8 @@ form {
       .tabs-wrapper .tabs-titles-wrap .tab.active-tab {
         color: #333;
         cursor: default;
-        border-bottom: 1px solid #333333; }
+        border-bottom: 1px solid #333333;
+        margin-bottom: -1px; }
     .tabs-wrapper .tabs-titles-wrap .tab + .tab {
       margin-left: 40px; }
   .tabs-wrapper .tab-content {
@@ -993,4 +994,5 @@ form {
         font-family: "latolight", sans-serif;
         color: #8c8c8c;
         font-size: 1rem;
-        resize: none; }
+        resize: none;
+        width: 560px; }
