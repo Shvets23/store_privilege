@@ -1,0 +1,51 @@
+form{
+position: relative;
+// width: 278px;
+display: inline-block;
+
+.select-style {
+    
+    width: 278px;
+    display: inline-block;
+    select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #8c8c8c;
+    border: 1px solid $borderGrey;
+    padding: 10px 9px;
+    width: 228px;
+    margin-left: 10px;
+    
+    }
+    &::after{
+        content: url('../../app/img/icon-arrow-select.png');
+        position: absolute;
+        top: 22%;
+        right: 18px;
+        
+        }
+    &.select-quantity {
+        width: 140px;
+        &::after{
+            content: url('../../app/img/icon-arrow-select.png');
+            position: absolute;
+            top: 22%;
+            right: 25px;
+            
+            }
+        select{
+            width: 55px;
+        }
+    }
+    }
+    .select-color{
+        &::after{
+            content: url('../../app/img/icon-arrow-select.png');
+            position: absolute;
+            top: 22%;
+            right: 9px;
+            
+            } 
+    }
+     
+}

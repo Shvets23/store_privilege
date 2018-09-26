@@ -1,0 +1,105 @@
+%marginRight{
+    margin-right: 10px;
+}
+// top header
+#header{
+    .top-header{
+        background-color: $basicGrey;
+        .settings li img{
+            margin-right: 0px;
+            margin-left: 10px;
+
+        }
+        ul{
+            padding: 12px 0;
+            li{
+                color: $basicBrown;
+                display: flex;
+                align-items: center;
+
+                
+                img{
+                    @extend %marginRight;
+                }
+                
+            }
+            li + li{
+                border-left: 1px solid $basicBrown;
+                margin-left: 20px;
+                padding-left: 20px;
+            }
+        }
+    }
+    .bottom-header{
+        background-color: $headerBottomColor;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        &.another-pages{
+            position: inherit;
+            background-color: #fff;
+        }
+        .logo{
+            font-family: $logoFont;
+            font-size: 1.5714rem;
+            color: $basicGrey;
+            text-transform: uppercase;
+            padding: 27px 0 27px 0;
+            margin-right: 85px;
+        }
+        .header-nav{
+            a{
+                font-family: $basicFontLite;
+                font-size: 1.1428rem;
+                text-transform: uppercase;  
+
+                &.active{
+                    border-bottom: 1px solid $basicGrey;
+                }
+            }
+            a + a{
+                margin-left: 37px;
+            }
+           & a:last-child{
+               font-family: $basicFontRegular;
+               
+           }
+            
+        }
+        .shopping{
+            position: relative;
+            font-size: 1.2rem;
+            margin-left: 35px;
+            color:#393939;
+            .notify-count{
+                color: #fff;
+                border-radius: 50%;
+                position: absolute;
+                top: -11px;
+                left: 9px;
+                height: 20px;
+                width: 20px;
+                text-align: center;
+                font-size: 1rem;
+            }
+        }
+        
+        .search-wrap{
+            max-width: 210px;
+            margin: 0 0 0 5px;
+            input{
+                width: 100px;
+                display: none;
+            }
+
+            .search-input-btn{
+                top: calc(1.1428rem/6);
+                right: 2px;
+                font-size: 1.2rem;
+                color: #393939;
+            }
+        }
+    }
+}

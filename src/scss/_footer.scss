@@ -1,0 +1,116 @@
+#footer{
+    .top-footer{
+        padding: 20px 0;
+        .col{
+            padding: 0;
+            span{
+        text-transform: uppercase;
+        font-size: 1.4285rem;
+        
+    }
+        }
+        
+    input{
+        height: 40px;
+        width: 400px;
+        border: 1px solid #e5e5e5;
+        margin-left: 15px;
+        color: #8c8c8c;
+        font-size: 1rem;
+        // margin-left: 40px;
+        padding-left: 15px;
+              
+    }
+    .btn-subscribe{
+        margin-left: -4px;
+
+    }
+}
+    .bottom-footer{
+        .ul-title{
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 1.14285rem;
+            margin-top: 40px;
+        }
+        ul{
+            color: $basicBrown;
+            line-height: 1;
+            margin-top: 20px;
+            margin-left: 15px;
+            list-style: square !important;
+            li + li {
+                margin-top: 15px;
+
+            }
+        }
+        .container.social{
+            border-top: 1px solid #5c5c5c;
+            margin-top: 40px;
+            
+        }
+        .social-nav{
+            color: #fff;
+            font-size: 1.1428rem;
+            text-transform: uppercase;
+            padding: 40px 0;
+           ul{
+               margin: 0;
+               margin-left: 20px;
+               li + li{
+                   margin: 0px;
+               }
+           }
+            
+            li{
+                width: 42px;
+                height: 42px;
+                font-size: 21px;
+                color: #fff;
+                border: 1px solid #5c5c5c;
+                display: inline-block;
+                text-align: center;
+                padding-top: 10px;
+
+            }
+        }
+        .we-acccept{
+            &.col{
+                padding-right: 0 !important;
+
+            }
+            .pay-nav{
+                display: inline-block;
+                color: #fff;
+                font-size: 1.1428rem;
+                text-transform: uppercase;
+                margin-right: 20px;
+            }
+            ul{
+                margin: 0;
+            li + li{
+                margin-top: 0;
+            }               
+            }
+             
+
+             li{
+                display: inline-block;
+                  
+             }
+        }
+        
+    }
+    .copyright{
+        .container{
+            padding-left: 0;
+        }
+        span{
+           color: $basicBrown; 
+           display: block;
+           padding: 20px 0;
+        }
+            
+        }
+        
+}

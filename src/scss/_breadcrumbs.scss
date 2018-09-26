@@ -1,0 +1,28 @@
+.breadcrumb {
+    
+    background-color: #f6f4f0;
+    li{
+        display: inline-block;
+        font-family: $basicFontLite;
+        padding: 13px 0;
+        a{
+        color: #8c8c8c;}
+        &.active_breadcrumbs {
+            a{
+              color: $basicGrey;  
+            }
+            
+        }        
+    
+    }
+    li + li::before{
+        content: '/';
+        padding: 0 5px;
+        color: #e8e8e8;
+    }
+    
+}
+
+
+
+

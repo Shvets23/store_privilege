@@ -1,0 +1,134 @@
+
+.tabs-wrapper{
+	position: relative;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  .tabs-titles-wrap{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid $borderGrey;
+    margin-bottom: 30px;
+    margin-top: 85px;
+    .tab{
+
+      color: #8e8e8e;
+      text-transform: uppercase;
+      cursor: pointer;
+      &.active-tab{
+	      color: #333;
+        cursor: default;
+        border-bottom: 1px solid $basicGrey;
+        margin-bottom: -1px;
+
+      }
+    }
+    .tab + .tab{
+      margin-left: 40px;
+    }
+  }
+  .tab-content{
+      display: none;
+      h6{
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 1.42857rem;
+        margin-bottom: 28px;
+      }
+      p + p{
+        margin-top: 25px
+      }
+    &.tab-content.active-tab{
+      display: block;
+    }
+    .review{
+      border-bottom: 1px solid $borderGrey;
+      border-top: 1px solid $borderGrey;
+      padding: 20px 10px 15px 20px;
+      .user-img{
+        img{
+          width: 80px;
+          height: 80px; 
+          max-width: none;
+        }
+       
+      }
+      .review-body{
+        margin-left: 20px;
+        .review-description{
+          margin-top: 10px;
+          margin-right: 170px;
+        }
+        .user-name{
+        font-family: $basicFontRegular;
+        margin-right: 10px;
+      }
+      .review-date{
+        color: #8c8c8c;
+      }
+      .review-star{
+        ul{
+          display: inline-block;
+          margin-right: 20px;
+          li{
+              display: inline;
+              color: $basicGrey; 
+          }
+          
+      }
+      }
+      }
+      
+    }
+    .add-a-review{
+      margin-top: 45px;
+      ul{
+        margin-left: 20px;
+        li{
+          display: inline;
+        }
+        
+        & li + li::before{
+          content: '|';
+          color: #e8e8e8;
+          padding-right: 20px;
+      }
+      & li + li {
+        margin-left: 20px;
+        
+      }
+      }
+    }
+    form{
+      margin-top: 15px;
+      input {
+        display: block;
+        width: 560px;
+        padding: 15px 15px;
+        font-family: $basicFontLite;
+        color: #8c8c8c;
+        font-size: 1rem;
+        border: 1px solid $borderGrey;
+      }
+      input + input{
+        margin-top: 20px;
+      }
+      textarea{
+        padding: 16px 15px;
+        border: 1px solid $borderGrey;
+        font-family: $basicFontLite;
+        color: #8c8c8c;
+        font-size: 1rem;
+        resize:none;
+        width: 560px;
+
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,105 @@
+.bg-grey {
+    background-color: #333333;
+}
+.bg-brown{
+	background-color: #ccb48e;
+}
+.bg-dark-grey{
+	background-color: #272727;
+}
+.bg-light-grey{
+	background-color: #f6f4f0;
+}
+.text-color-brown{
+	color: #ccb48e !important;
+}
+.container {
+	width: 1200px;
+	max-width: 1180px;
+	padding: 0 15px;
+	margin: auto;
+	}
+.container-fluid {
+	padding: 0 15px;
+}
+// button
+.btn{
+	
+	font-family: $basicFontRegular;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.857142rem;
+	background-color: $basicBrown;
+	line-height: 1;
+	
+}
+.btn-subscribe{
+	padding: 14px 20px;
+}
+.btn-submit{
+	padding: 17px 37px;
+	margin-top: 16px;
+}
+.btn-card{
+	margin-top: 15px;
+	padding: 14px 20px;
+
+}
+// product card
+.card{
+	text-align: center;
+	// position: relative;
+	// overflow: hidden;
+	
+		
+		
+	
+	.card-img{
+		border: 1px solid #e5e5e5;
+		height: 280px;
+		overflow: hidden;
+		position: relative;
+		.new-product {
+			text-transform: uppercase;
+			position: absolute;
+			top: -40px;
+			right: -40px;
+			background-color: $liteGrey;
+			width: 80px;
+			height: 80px;
+			transform: rotate(45deg);
+			padding: 5px;
+			color: $basicBrown;
+			font-family: $basicFontRegular;
+		  }
+		img{
+			margin-top: 20px;
+			background-size: cover;
+			
+		}
+	}
+	.card-title{
+		font-family: $basicFontRegular;
+		padding-top: 17px;
+	}
+	.card-price{
+		font-family: $basicFontRegular;
+		font-size: 1.2857rem;
+		padding-top: 17px;
+		.old-price{
+			font-size: 1rem;
+			font-family: $basicFontLite;
+			color: #5d5d5d;
+			text-decoration:line-through;
+			margin-right: 20px;
+
+		}
+		
+	}
+}
+
+
+
+
+
+
