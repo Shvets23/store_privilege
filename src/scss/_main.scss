@@ -39,7 +39,8 @@
     .title-wrap{
         position: relative;
         overflow: hidden;
-        margin: 40px 0;
+        margin-bottom: 40px;
+        margin-top: 35px;
 
         .section-title{
            @extend %titleWithLine;

@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product_details</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <!-- Slick slider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="top-header">
+            <div class="user-controls d-flex justify-content-between container">
+                <ul class="settings d-flex">
+                    <li>EN
+                        <img src="img/open-icon.png" alt="">
+                    </li>
+                    <li>USD
+                        <img src="img/open-icon.png" alt="">
+                    </li>
+                </ul>
+                <ul class="d-flex align-items-center">
+                    <li>
+                        <img src="img/wishlist-icon.png" alt=""><a href="">Wishlist: 2</a> </li>
+                    <li>
+                        <img src="img/compare-icon.png" alt=""><a href="">Compare: 3</a></li>
+                    <li>
+                        <img src="img/login-icon.png" alt=""><a href="">Login</a></li>
+                </ul>
+            </div>
+            <!-- /.user-controls -->
+
+        </div>
+        <!-- /.top-header -->
+        <div class="bottom-header another-pages">
+            <div class="bottom-header-content container d-flex align-items-center">
+                <div class="logo"><a href="index.html">Privilege</a></div>
+                <!-- /.logo -->
+                <div class="header-nav">
+                    <a href="index.html">Home</a>
+                    <a href="#">about</a>
+                    <a href="#">men</a>
+                    <a href="#" class="active">women</a>
+                    <a href="#">Accesories</a>
+                    <a href="#">Blog</a>
+                    <a href="#">BUY theme!</a>
+
+                </div>
+                <!-- /.header-nav -->
+                <form class="d-flex ml-auto">
+                    <div class="search-wrap">
+                        <input type="text" name="search" id="search" class="search-input">
+                        <button class="search-input-btn">
+                            <img src="img/search-icon.png" alt="">
+                        </button>
+                    </div>
+                </form>
+                <div class="shopping">
+                    <a href="checkout.html">
+                        <img src="img/cart-icon.png" alt="">
+                        <span class="notify-count bg-brown">3</span>
+                    </a>
+                </div>
+                <!-- /.shopping -->
+            </div>
+            <!-- /.bottom-header-content -->
+        </div>
+        <!-- /.bottom-header -->
+    </header>
+    <!-- /#header -->
+    <main>
+        <div class="bg-light-grey">
+            <ul class="breadcrumb container">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Women</a>
+                </li>
+                <li class="active_breadcrumbs">
+                    <a href="#">Shirt</a>
+                </li>
+
+            </ul>
+            <!-- /.breadcrumb -->
+        </div>
+        <div class="container">
+            <div class="product-title">
+                <span>Shirt</span>
+            </div>
+            <!-- /.product-title -->
+            <div class="row">
+                <div class="col col-3">
+                    <aside id="aside">
+                        <div class="aside-section">
+                            <div class="section-header">
+                                <h3 class="aside-title">Categories</h3>
+                                <img src="img/close-icon.jpg" alt="">
+                            </div>
+
+                            <ul class="category-list">
+                                <li>
+                                    <a href="women_subcutegory.html">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Sweater</a>
+                                </li>
+                                <li class="active-category">
+                                    <a href="women_subcutegory.html">Shirt</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Tops</a>
+                                </li>
+                            </ul>
+                            <!-- /.category-list -->
+                        </div>
+                        <!-- /.aside-section -->
+                        <div class="aside-section">
+                            <div class="section-header">
+                                <h3 class="aside-title">Price</h3>
+                                <img src="img/close-icon.jpg" alt="">
+                            </div>
+
+                            <ul class="price-list">
+                                <li>
+                                    <input type="checkbox" name="price-50" id="price-50" value="0 to 50">
+                                    <label for="price-50">0$ to 50$</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price-100" id="price-100" value="50 to 100">
+                                    <label for="price-100">50$ to 100$</label>
+                                </li>
+                                <li class="active-category">
+                                    <input type="checkbox" name="price-200" id="price-200" value="100 to 200">
+                                    <label for="price-200">100$ to 200$</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price-500" id="price-500" value="200 to 500">
+                                    <label for="price-500">200$ to 500$</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price-above" id="price-above" value="abpove 500">
+                                    <label for="price-above">500$ and above</label>
+                                </li>
+                            </ul>
+                            <!-- /.price-list -->
+                        </div>
+                        <!-- /.aside-section -->
+                        <div class="aside-section">
+                            <div class="section-header">
+                                <h3 class="aside-title">Color</h3>
+                                <img src="img/close-icon.jpg" alt="">
+                            </div>
+                            <ul class="color-list">
+                                <li>
+                                    <input type="checkbox" name="color-gold" id="color-gold" value="gold">
+                                    <label for="color-gold">Gold</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-silver" id="color-silver" value="silver">
+                                    <label for="color-silver">Silver</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-black" id="color-black" value="black">
+                                    <label for="color-black">Black</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-blue" id="color-blue" value="blue">
+                                    <label for="color-blue">Blue</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-blue-green" id="color-blue-green" value="blue-green">
+                                    <label for="color-blue-green">Blue/Green</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-blue-purple" id="color-blue-purple" value="blue-purple">
+                                    <label for="color-blue-purple">Blue/Purple</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-brown" id="color-brown" value="brown">
+                                    <label for="color-brown">Brown</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-green" id="color-green" value="green">
+                                    <label for="color-green">Green</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-grey" id="color-grey" value="grey">
+                                    <label for="color-grey">Grey</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-multi" id="color-multi" value="multi">
+                                    <label for="color-multi">Multi</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-navy" id="color-navy" value="navy">
+                                    <label for="color-navy">Navy</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-neutrals" id="color-neutrals" value="neutrals">
+                                    <label for="color-neutrals">Neutralas</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-nude" id="color-nude" value="nude">
+                                    <label for="color-nude">Nude</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-orange" id="color-orange" value="orange">
+                                    <label for="color-orange">Orange</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-pink" id="color-pink" value="pink">
+                                    <label for="color-pink">Pink</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-pink-purple" id="color-pink-purple" value="pink-purple">
+                                    <label for="color-pink-purple">Pink/Purple</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-purple" id="color-purple" value="purple">
+                                    <label for="color-purple">Purple</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-red" id="color-red" value="red">
+                                    <label for="color-red">Red</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-red-orange" id="color-red-orange" value="red-orange">
+                                    <label for="color-red-orange">Red/Orange</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-red-purple" id="color-red-purple" value="red-purple">
+                                    <label for="color-red-purple">Red/Purple</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-white" id="color-white" value="white">
+                                    <label for="color-white">White</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="color-yellow" id="color-yellow" value="yellow">
+                                    <label for="color-yellow">Yellow</label>
+                                </li>
+                            </ul>
+                            <!-- /.price-list -->
+                        </div>
+                        <!-- /.aside-section -->
+                        <div class="aside-section">
+                            <div class="section-header">
+                                <h3 class="aside-title">Brand</h3>
+                                <img src="img/close-icon.jpg" alt="">
+                            </div>
+                            <ul class="brand-list">
+                                <li>
+                                    <input type="checkbox" name="brand-giorgio-armani" id="brand-giorgio-armani" value="giorgio-armani">
+                                    <label for="brand-giorgio-armani">Giorgio Armani</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand-versace" id="brand-versace" value="versace">
+                                    <label for="brand-versace">Versace</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand-glenmuir" id="brand-glenmuir" value="glenmuir">
+                                    <label for="brand-glenmuir">Glenmuir</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand-chanel" id="brand-chanel" value="chanel">
+                                    <label for="brand-chanel">Chanel</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand-gucci" id="brand-gucci" value="gucci">
+                                    <label for="brand-gucci">Gucci</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand-louis-vitton" id="brand-louis-vitton" value="louis-vitton">
+                                    <label for="brand-louis-vitton">Louis Vitton</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand-dolce-gabbana" id="brand-dolce-gabbana" value="dolce-gabbana">
+                                    <label for="brand-dolce-gabbana">Dolce Gabbana</label>
+                                </li>
+
+                            </ul>
+                            <!-- /.brand-list -->
+                        </div>
+                        <!-- /.aside-section -->
+                        <div class="aside-section">
+                            <div class="section-header">
+                                <h3 class="aside-title">Size</h3>
+                                <img src="img/close-icon.jpg" alt="">
+                            </div>
+                            <div class="aside-checkbox-size d-flex">
+                                <ul class="size-list">
+                                    <li>
+                                        <input type="checkbox" name="size-xs" id="size-xs" value="xs">
+                                        <label for="size-xs">XS</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-s" id="size-s" value="s">
+                                        <label for="size-s">S</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-m" id="size-m" value="m">
+                                        <label for="size-m">M</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-l" id="size-l" value="l">
+                                        <label for="size-l">L</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-xl" id="size-xl" value="xl">
+                                        <label for="size-xl">XL</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-xxl" id="size-xxl" value="xxl">
+                                        <label for="size-xxl">XXL</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-3xl" id="size-3xl" value="3xl">
+                                        <label for="size-3xl">3XL</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-4xl" id="size-4xl" value="4xl">
+                                        <label for="size-4xl">4XL</label>
+                                    </li>
+                                </ul>
+                                <ul class="size-list">
+                                    <li>
+                                        <input type="checkbox" name="size-5xl" id="size-5xl" value="5xl">
+                                        <label for="size-5xl">5XL</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-6xl" id="size-6xl" value="6xl">
+                                        <label for="size-6xl">6XL</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-32" id="size-32" value="32">
+                                        <label for="size-32">32</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-34" id="size-34" value="34">
+                                        <label for="size-34">34</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-36" id="size-36" value="36">
+                                        <label for="size-36">36</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-38" id="size-38" value="38">
+                                        <label for="size-38">38</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-42" id="size-42" value="42">
+                                        <label for="size-42">42</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="size-free-size" id="size-free-size" value="free-size">
+                                        <label for="size-free-size">FREE SIZE</label>
+                                    </li>
+                                </ul>
+                                <!-- /.size-list -->
+                            </div>
+                            <!-- /.aside-checkbox-size -->
+                        </div>
+                        <!-- /.aside-section -->
+                    </aside>
+                    <!-- /#aside -->
+                </div>
+                <!-- /.col col-3 -->
+                <div class="col col-9">
+                    <div class="view-controls bg-light-grey d-flex justify-content-between">
+                        <form>
+                            <div class="select-style select-sort-by">
+
+
+                                <label for="sort-by">Sort by</label>
+                                <select name="filter-sort" id="sort-by">
+                                    <option value="default">Default</option>
+                                    <option value="hight-to-low">Price: hight to low</option>
+                                    <option value="low-to-hight">Price: low to hight</option>
+                                    <option value="newest">Newest</option>
+                                </select>
+                            </div>
+                            <!-- /.select-style -->
+                            <div class="select-style select-show">
+                                <label for="show">Show</label>
+                                <select name="filter-show" id="show">
+                                    <option value="12">12</option>
+                                    <option value="16">16</option>
+                                    <option value="24">24</option>
+                                    <option value="36">36</option>
+                                </select>
+                            </div>
+                            <!-- /.select-style -->
+
+                        </form>
+                        <div class="view d-flex align-items-center">
+                            <span>View:</span>
+                            <div class="active-view d-flex align-items-center justify-content-center">
+                                <img src="img/view1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/view2.png" alt="">
+                            </div>
+
+                        </div>
+                        <!-- /.view -->
+                    </div>
+                    <!-- /.view-controls -->
+                    <div class="row women-sub">
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/product-img-1.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women White Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">$150.00</div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <!-- /.card col col-4 -->
+
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-2.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women Shirt Summer</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+                                <span class="old-price">$320.00</span>
+                                <span class="new-price">$230.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <!-- /.card col col-4 -->
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-3.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women Jeans Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+                                <span class="old-price">$250.00</span>
+                                <span class="new-price">$190.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <!-- /.card col col-4 -->
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-4.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women Flowers Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+
+                                <span class="card-price">$150.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-5.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+                                <span class="old-price">$320.00</span>
+                                <span class="new-price">$230.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-6.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women White Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+                                <span class="old-price">$250.00</span>
+                                <span class="new-price">$190.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-2.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women Shirt Summer</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+
+                                <span class="card-price">$150.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-8.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women Blue Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+                                <span class="old-price">$320.00</span>
+                                <span class="new-price">$230.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-9.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women White Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+                                <span class="old-price">$250.00</span>
+                                <span class="new-price">$190.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-10.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+
+                                <span class="card-price">$150.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-11.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women White Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+                                <span class="old-price">$320.00</span>
+                                <span class="new-price">$230.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                        <div class="card col col-4">
+                            <div class="card-img">
+                                <a href="product_details.html">
+                                    <img src="img/category-shirt/photo-12.jpg" alt="">
+                                </a>
+                            </div>
+                            <!-- /.card-img -->
+                            <div class="card-title">
+                                <a href="product_details.html">
+                                    <h6>Women Flowers Shirt</h6>
+                                </a>
+                            </div>
+                            <!-- /.card-title -->
+                            <div class="card-price">
+                                <span class="old-price">$250.00</span>
+                                <span class="new-price">$190.00</span>
+                            </div>
+                            <!-- /.card-price -->
+                            <button class="btn btn-card">Add to cart</button>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    <nav class="pagination-block d-flex" aria-label="...">
+                        <ul class="pagination d-flex">
+                            <li class="page-item active-page">
+                                <a class="page-link" href="#">1
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="page-item ">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">4</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">5</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /.col col-9 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+
+    </main>
+    <footer id="footer" class="bg-light-grey">
+        <div class="top-footer">
+            <div class="row container d-flex align-items-center">
+                <div class="col col-6">
+                    <span>Subscribe to our newsletter and get a $30 voucher</span>
+                </div>
+                <!-- /.col col-6 -->
+                <div class="col col-6 d-flex justify-content-end">
+                    <form class="subscribe-form">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <button class="btn btn-subscribe">subscribe</button>
+                    </form>
+                    <!-- /.subscribe-form -->
+                </div>
+                <!-- /.col col-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.top-footer -->
+
+        <div class="bottom-footer bg-grey">
+            <div class="footer-category container">
+                <div class="row">
+                    <div class="col col-2">
+                        <div class="ul-title">WHAT'S HOT</div>
+                        <ul>
+                            <li>
+                                <a href="#">Discount Voucher</a>
+                            </li>
+                            <li>
+                                <a href="#">Summer Collection</a>
+                            </li>
+                            <li>
+                                <a href="#">Popular Products</a>
+                            </li>
+                            <li>
+                                <a href="#">Best Sellers</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- /.col col-2 -->
+                    <div class="col col-2">
+                        <div class="ul-title">Brands</div>
+                        <ul>
+                            <li>
+                                <a href="#">Giorgio Armani</a>
+                            </li>
+                            <li>
+                                <a href="#">Versace</a>
+                            </li>
+                            <li>
+                                <a href="#">Chanel</a>
+                            </li>
+                            <li>
+                                <a href="#">Gucci</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col col-2 -->
+                    <div class="col col-2">
+                            <div class="ul-title">Men shop</div>
+                            <ul>
+                                <li>
+                                    <a href="women_subcutegory.html">Suit Jacket</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Sweater</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Shirt</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Tops</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col col-2 -->
+                        <div class="col col-2">
+                            <div class="ul-title">Woman shop</div>
+                            <ul>
+                                <li>
+                                    <a href="women_subcutegory.html">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Sweater</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Shirt</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Tops</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col col-2 -->
+                    <div class="col col-2">
+                        <div class="ul-title">Accesories</div>
+                        <ul>
+                            <li>
+                                <a href="#">Sunglasses</a>
+                            </li>
+                            <li>
+                                <a href="#">Clock</a>
+                            </li>
+                            <li>
+                                <a href="#">Bags</a>
+                            </li>
+                            <li>
+                                <a href="#">Hats</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col col-2 -->
+                    <div class="col col-2">
+                        <div class="ul-title">Help</div>
+                        <ul>
+                            <li>
+                                <a href="#">F.A.Q.</a>
+                            </li>
+                            <li>
+                                <a href="#">Shipping</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col col-2 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.footer-category -->
+            <div class="container social">
+                <div class="row d-flex justify-content-between">
+
+                    <div class="col col-6 social-nav d-flex align-items-center">
+                        <div>Follow us</div>
+                        <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href=""><img src="img/instagram.png" alt=""></a></li>
+                                <li><a href=""><img src="img/youtube.png" alt=""></a></li>
+                                <li><a href=""><i class="fab fa-behance"></i></a></li>
+                                <li><a href=""><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href=""><img src="img/google-plus.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <!-- /.social-nav -->
+                    <div class="col col-6 we-acccept d-flex justify-content-end align-items-center">
+                        <div class="pay-nav">We accept</div>
+                        <ul>
+                            <li>
+                                <img src="img/paypal.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/mastercard.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/maestro.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/visa.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/discover.jpg" alt="">
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- /.we-acccept -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.conteiner -->
+        </div>
+        <!-- /.bottom-footer -->
+        <div class="copyright bg-dark-grey">
+            <div class="container">
+                <span>© 2016 Privilege. All Rights Reserved.</span>
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.copyright -->
+
+    </footer>
+    <!-- /#footer -->
+    <!-- /#main -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- slick-slider -->
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Init plugins -->
+    <script src="js/init.js"></script>
+    <script>
+        $('.section-header').on('click', function(){
+	$(this).next().slideToggle();
+});
+    </script>
+</body>
+
+</html>

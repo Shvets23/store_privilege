@@ -41,7 +41,7 @@
       display: block;
     }
     .review{
-      border-bottom: 1px solid $borderGrey;
+      
       border-top: 1px solid $borderGrey;
       padding: 20px 10px 15px 20px;
       .user-img{
@@ -80,7 +80,8 @@
       
     }
     .add-a-review{
-      margin-top: 45px;
+      padding-top: 45px;
+      border-top: 1px solid $borderGrey;
       ul{
         margin-left: 20px;
         li{
@@ -103,7 +104,7 @@
       input {
         display: block;
         width: 560px;
-        padding: 15px 15px;
+        padding: 15px;
         font-family: $basicFontLite;
         color: #8c8c8c;
         font-size: 1rem;

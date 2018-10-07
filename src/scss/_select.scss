@@ -1,10 +1,39 @@
 form{
+    
 position: relative;
 // width: 278px;
 display: inline-block;
 
+select{
+    z-index: 11;
+}
 .select-style {
-    
+    &.select-sort-by{
+        &::after{
+            content: url('../../app/img/icon-arrow-select.png');
+            position: absolute;
+            top: 22%;
+            left: 188px; 
+            width: 10px;
+        }
+
+        width: 210px !important;
+        select{
+            width: 150px;
+        }
+        }
+
+    &.select-show{
+        &::after{
+            content: url('../../app/img/icon-arrow-select.png');
+            position: absolute;
+            top: 22%;
+            right: 160px;
+        }
+        select{
+            width: 80px;
+        }
+    }
     width: 278px;
     display: inline-block;
     select{

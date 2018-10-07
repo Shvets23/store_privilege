@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -30,11 +30,11 @@
                 </ul>
                 <ul class="d-flex align-items-center">
                     <li>
-                        <img src="img/wishlist-icon.png" alt="">Wishlist: 2</li>
+                        <img src="img/wishlist-icon.png" alt=""><a href="">Wishlist: 2</a></li>
                     <li>
-                        <img src="img/compare-icon.png" alt="">Compare: 3</li>
+                        <img src="img/compare-icon.png" alt=""><a href="">Compare: 3</a></li>
                     <li>
-                        <img src="img/login-icon.png" alt="">Login</li>
+                        <img src="img/login-icon.png" alt=""><a href="">Login</a></li>
                 </ul>
             </div>
             <!-- /.user-controls -->
@@ -43,13 +43,13 @@
         <!-- /.top-header -->
         <div class="bottom-header another-pages">
             <div class="bottom-header-content container d-flex align-items-center">
-                <div class="logo">Privilege</div>
+                <div class="logo"><a href="index.html">Privilege</a></div>
                 <!-- /.logo -->
                 <div class="header-nav">
-                    <a href="#" class="active">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="#">about</a>
                     <a href="#">men</a>
-                    <a href="#">women</a>
+                    <a href="#" class="active">women</a>
                     <a href="#">Accesories</a>
                     <a href="#">Blog</a>
                     <a href="#">BUY theme!</a>
@@ -65,8 +65,10 @@
                     </div>
                 </form>
                 <div class="shopping">
-                    <img src="img/cart-icon.png" alt="">
-                    <span class="notify-count bg-brown">3</span>
+                    <a href="checkout.html">
+                        <img src="img/cart-icon.png" alt="">
+                        <span class="notify-count bg-brown">3</span>
+                    </a>
                 </div>
                 <!-- /.shopping -->
             </div>
@@ -78,10 +80,18 @@
     <main id="main">
         <div class="bg-light-grey">
             <ul class="breadcrumb container">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Women</a></li>
-                <li><a href="#">Shirt</a></li>
-                <li class="active_breadcrumbs"><a href="#">Women Flowers Shirt</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Women</a>
+                </li>
+                <li>
+                    <a href="women_subcutegory.html">Shirt</a>
+                </li>
+                <li class="active_breadcrumbs">
+                    <a href="#">Women Flowers Shirt</a>
+                </li>
             </ul>
             <!-- /.breadcrumb -->
         </div>
@@ -92,48 +102,63 @@
             </div>
             <!-- /.product-title -->
             <div class="row">
-                
+
                 <div class="col col-6 ">
-                        <div class="product-img">
-                                <img id="main-img" src="img/product-img/main_img.jpg" alt="">
-                            </div>
-                            <!-- /.product-img -->
+                    <div class="product-img">
+                        <img id="main-img" src="img/product-img/main_img.jpg" alt="">
+                    </div>
+                    <!-- /.product-img -->
                 </div>
                 <!-- /.col col-6 product-img -->
                 <div class="col col-6 about-product">
                     <div class="review-star">
                         <ul class="star">
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="far fa-star"></i></li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star"></i>
+                            </li>
                         </ul>
                         <!-- /.star -->
-                        <span><a href="#">2 Review(s)</a> </span>
-                        
-                        <span><a href="">Add Review</a></span>
+                        <span>
+                            <a href="#">2 Review(s)</a>
+                        </span>
+
+                        <span>
+                            <a href="">Add Review</a>
+                        </span>
                     </div>
                     <!-- /.review-star -->
                     <div class="product-description">
-                        <span>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</span>
+                        <span>By creating an account with our store, you will be able to move through the checkout process faster,
+                            store multiple shipping addresses, view and track your orders in your account and more.</span>
                     </div>
                     <!-- /.product-description -->
                     <form>
-                    <div class="select-style">
-                        <label for="size">Size:</label>
-                        <select name="size" id="size">
-                            <option value="">Select a size</option>
-                            <option value="34">34</option>
-                            <option value="35">35</option>
-                            <option value="36">36</option>
-                            <option value="37">37</option>
-                            <option value="38">38</option>
-                        </select>
-                    </div>
-                    <!-- /.select-style -->
-                </form>
-                <form>
+                        <div class="select-style">
+                            <label for="size">Size:</label>
+                            <select name="size" id="size">
+                                <option value="">Select a size</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                            </select>
+                        </div>
+                        <!-- /.select-style -->
+                    </form>
+                    <form>
                         <div class="select-style select-color">
                             <label for="color">Color:</label>
                             <select name="color" id="color">
@@ -167,30 +192,38 @@
                             <!-- /.select-style select-quantity -->
                         </form>
                         <div class="product-button d-flex justify-content-between">
-                            <div><i class="far fa-heart"></i></div>
+                            <div>
+                                <i class="far fa-heart"></i>
+                            </div>
                             <button class="btn btn-card">Add to cart</button>
-                            <div><i class="fas fa-exchange-alt"></i></div>
+                            <div>
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
                         </div>
                         <!-- /.product-button -->
                     </div>
                     <!-- /.quantity -->
                     <div class="status-tags">
-                        <div>Stock Status: <span>In Stock</span></div>
-                        <div>Tags: <span>Woman, Shirt, Flowers</span></div>
+                        <div>Stock Status:
+                            <span>In Stock</span>
+                        </div>
+                        <div>Tags:
+                            <span>Woman, Shirt, Flowers</span>
+                        </div>
                     </div>
                     <!-- /.status-tags -->
                     <div class="share-on">
                         <div class="social-nav d-flex align-items-center">
                             <div>Share on</div>
                             <ul>
-                                <li><i class="fab fa-facebook-f"></i></li>
-                                <li><i class="fab fa-twitter"></i></li>
-                                <li><i class="fab fa-pinterest-p"></i></li>
-                                <li><img src="img/instagram.png" alt=""></li>
-                                <li><img src="img/youtube.png" alt=""></li>
-                                <li><i class="fab fa-behance"></i></li>
-                                <li><i class="fab fa-dribbble"></i></li>
-                                <li><img src="img/google-plus.png" alt=""></li>                      
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+                                <li><a href="#"><img src="img/youtube.png" alt=""></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#"><img src="img/google-plus.png" alt=""></a></li>
                             </ul>
                         </div>
                         <!-- /.social-nav -->
@@ -198,7 +231,7 @@
                     <!-- /.share-on -->
                 </div>
                 <!-- / .col.col-6.about-product -->
-            
+
             </div>
             <!-- /.row -->
             <div class="row">
@@ -208,21 +241,21 @@
                             <img class="preview-img" src="img/product-img/photo1.png" alt="">
                         </div>
                         <!-- /.gallery-img -->
-                        
+
                     </div>
                     <!-- /.col col-2 -->
                     <div class="col col-2">
-                            <div class="gallery-img">
-                                    <img class="preview-img" src="img/product-img/photo2.png" alt="">
-                                </div>
-                                <!-- /.gallery-img -->
+                        <div class="gallery-img">
+                            <img class="preview-img" src="img/product-img/photo2.png" alt="">
+                        </div>
+                        <!-- /.gallery-img -->
                     </div>
                     <!-- /.col col-2 -->
                     <div class="col col-2">
-                            <div class="gallery-img">
-                                    <img class="preview-img" src="img/product-img/photo3.png" alt="">
-                                </div>
-                                <!-- /.gallery-img -->
+                        <div class="gallery-img">
+                            <img class="preview-img" src="img/product-img/photo3.png" alt="">
+                        </div>
+                        <!-- /.gallery-img -->
                     </div>
                     <!-- /.col col-2 -->
                 </div>
@@ -232,166 +265,208 @@
         </div>
         <!-- /.product-wrap.container -->
         <div class="container">
-                <div class="tabs-wrapper">
-                        <div class="tabs-titles-wrap">
-                            <div class="tab active-tab">Description</div>
-                            <div class="tab">Reviews (2)</div>
-                            
-                        </div>
-                        <div class="tabs-content-wrap">
-                            <div class="tab-content active-tab">
-                                <h6>Description</h6>
-                                <p>
-                                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                                </p>
-                                <p>
-                                    Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt. Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur.
-                                </p>
-                                <p>
-                                    At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-                                </p>
-                                <p>
-                                    Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-                                </p>
-                            </div>
-                            <div class="tab-content">
-                                <h6>Reviews (2)</h6>
-                               <div class="review d-flex">
-                                   <div class="user-img">
-                                    <img src="img/users/user1.jpg" alt="">
-                                   </div>
-                                   <!-- /.user-img -->
-                                   <div class="review-body">
-                                       <div class="review-title-stars d-flex justify-content-between">
-                                       <div class="review-title d-flex">
-                                            <div class="user-name">Linda Miller</div>
-                                                <!-- /.user-name -->
-                                            <div class="review-date">25.03.2016</div>
-                                                <!-- /.review-date -->
-                                       </div>
-                                       <!-- /.review-title -->
-                                       <div class="review-star">
-                                            <ul class="star">
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="fas fa-star"></i></li>
-                                                    <li><i class="far fa-star"></i></li>
-                                                </ul>
-                                       </div>
-                                       <!-- /.review-stars -->
-                                    </div>
-                                    <!-- /.review-title-stars -->
-                                       <div class="review-description">
-                                            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
-                                       </div>
-                                       <!-- /.review-description -->
-                                   </div>
-                                   <!-- /.review-body -->
-                               </div>
-                               <!-- /.review -->
-                               <div class="review d-flex">
-                                    <div class="user-img">
-                                     <img src="img/users/user2.jpg" alt="">
-                                    </div>
-                                    <!-- /.user-img -->
-                                    <div class="review-body">
-                                            <div class="review-title-stars d-flex justify-content-between">
-                                        <div class="review-title d-flex">
-                                            <div class="user-name">Roxanne Spicer</div>
-                                            <!-- /.user-name -->
-                                          <div class="review-date">25.03.2016</div>
-                                          <!-- /.review-date -->
-                                         
-                                        </div>
-                                        <!-- /.review-title -->
-                                        <div class="review-star">
-                                                <ul class="star">
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                        <li><i class="fas fa-star"></i></li>
-                                                    </ul>
-                                        </div>
-                                        <!-- /.review-star -->
-                                        </div>
-                                        <!-- /.review-title-stars -->
-                                        <div class="review-description">
-                                                Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. 
-                                        </div>
-                                        <!-- /.review-description -->
-                                    </div>
-                                    <!-- /.review-body -->
-                                </div>
-                                <!-- /.review -->
-                                <div class="add-a-review">
-                                    <h6>Add a review</h6>
-                                    <div class="your-rating d-flex">
-                                        Your Rating
-                                    <ul>
-                                        <li><a href="#"><i class="far fa-star"></i></a></li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="far fa-star"></i> 
-                                                <i class="far fa-star"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                                <i class="far fa-star"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- /.your-rating -->
-                                <div class="row">
-                                    <div class="col col-6">
-                                       <form class="form-user-name">
-                                    <input type="text" placeholder="First Name">
-                                    <input type="email" placeholder="Email Address">
-                                    </form>
-                                <!-- /.form-review --> 
-                                    </div>
-                                    <!-- /col col-6 -->
-                                    <div class="col col-6">
-                                        <form class="form-review">
-                                            <textarea name="review-text" cols="77" rows="5" placeholder="Your Review"></textarea>
-                                        </form>
-                                    </div>
-                                    <!-- /.col col-6 -->
-                                </div>
-                                <!-- /.row -->
-                                <button class="btn btn-submit">submit</button>
-                                </div>
-                                <!-- /.add-a-review -->
-                            </div>
-                            <!-- /.tab-content -->
-                        </div>
+            <div class="tabs-wrapper">
+                <div class="tabs-titles-wrap">
+                    <div class="tab active-tab">Description</div>
+                    <div class="tab">Reviews (2)</div>
+
+                </div>
+                <div class="tabs-content-wrap">
+                    <div class="tab-content active-tab">
+                        <h6>Description</h6>
+                        <p>
+                            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque
+                            ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                        </p>
+                        <p>
+                            Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui
+                            ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit,
+                            amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt. Quis autem
+                            vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur,
+                            vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur.
+                        </p>
+                        <p>
+                            At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti,
+                            quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique
+                            sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                        </p>
+                        <p>
+                            Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+                            nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est,
+                            omnis dolor repellendus. Temporibus autem quibusdam et aut officiis, ut aut reiciendis voluptatibus
+                            maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                        </p>
                     </div>
-                    
+                    <div class="tab-content">
+                        <h6>Reviews (2)</h6>
+                        <div class="review d-flex">
+                            <div class="user-img">
+                                <img src="img/users/user1.jpg" alt="">
+                            </div>
+                            <!-- /.user-img -->
+                            <div class="review-body">
+                                <div class="review-title-stars d-flex justify-content-between">
+                                    <div class="review-title d-flex">
+                                        <div class="user-name">Linda Miller</div>
+                                        <!-- /.user-name -->
+                                        <div class="review-date">25.03.2016</div>
+                                        <!-- /.review-date -->
+                                    </div>
+                                    <!-- /.review-title -->
+                                    <div class="review-star">
+                                        <ul class="star">
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="far fa-star"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.review-stars -->
+                                </div>
+                                <!-- /.review-title-stars -->
+                                <div class="review-description">
+                                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque
+                                    ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.cupiditate
+                                    non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum
+                                    et dolorum fuga.
+                                </div>
+                                <!-- /.review-description -->
+                            </div>
+                            <!-- /.review-body -->
+                        </div>
+                        <!-- /.review -->
+                        <div class="review d-flex">
+                            <div class="user-img">
+                                <img src="img/users/user2.jpg" alt="">
+                            </div>
+                            <!-- /.user-img -->
+                            <div class="review-body">
+                                <div class="review-title-stars d-flex justify-content-between">
+                                    <div class="review-title d-flex">
+                                        <div class="user-name">Roxanne Spicer</div>
+                                        <!-- /.user-name -->
+                                        <div class="review-date">25.03.2016</div>
+                                        <!-- /.review-date -->
+
+                                    </div>
+                                    <!-- /.review-title -->
+                                    <div class="review-star">
+                                        <ul class="star">
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-star"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.review-star -->
+                                </div>
+                                <!-- /.review-title-stars -->
+                                <div class="review-description">
+                                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque
+                                    ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                                    Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam
+                                    est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non
+                                    numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </div>
+                                <!-- /.review-description -->
+                            </div>
+                            <!-- /.review-body -->
+                        </div>
+                        <!-- /.review -->
+                        <div class="add-a-review">
+                            <h6>Add a review</h6>
+                            <div class="your-rating d-flex">
+                                Your Rating
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="far fa-star"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.your-rating -->
+                            <div class="row">
+                                <div class="col col-6">
+                                    <form class="form-user-name">
+                                        <input type="text" placeholder="First Name">
+                                        <input type="email" placeholder="Email Address">
+                                    </form>
+                                    <!-- /.form-review -->
+                                </div>
+                                <!-- /col col-6 -->
+                                <div class="col col-6">
+                                    <form class="form-review">
+                                        <textarea name="review-text" cols="77" rows="5" placeholder="Your Review"></textarea>
+                                    </form>
+                                </div>
+                                <!-- /.col col-6 -->
+                            </div>
+                            <!-- /.row -->
+                            <button class="btn btn-submit">submit</button>
+                        </div>
+                        <!-- /.add-a-review -->
+                    </div>
+                    <!-- /.tab-content -->
+                </div>
+            </div>
+
         </div>
         <!-- /.container -->
-        
+
     </main>
     <footer id="footer" class="bg-light-grey">
         <div class="top-footer">
@@ -402,78 +477,126 @@
                 <!-- /.col col-6 -->
                 <div class="col col-6 d-flex justify-content-end">
                     <form class="subscribe-form">
-                    <input type="email" name="email" id="email" placeholder="Email Address">
-                <button class="btn btn-subscribe">subscribe</button>
-                </form>
-                <!-- /.subscribe-form -->
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <button class="btn btn-subscribe">subscribe</button>
+                    </form>
+                    <!-- /.subscribe-form -->
                 </div>
                 <!-- /.col col-6 -->
             </div>
-            <!-- /.row -->    
-            </div>
-            <!-- /.top-footer -->
-          
+            <!-- /.row -->
+        </div>
+        <!-- /.top-footer -->
+
         <div class="bottom-footer bg-grey">
             <div class="footer-category container">
                 <div class="row">
                     <div class="col col-2">
                         <div class="ul-title">WHAT'S HOT</div>
                         <ul>
-                            <li><a href="#">Discount Voucher</a></li>
-                            <li><a href="#">Summer Collection</a> </li>
-                            <li><a href="#">Popular Products</a></li>
-                            <li><a href="#">Best Sellers</a></li>
+                            <li>
+                                <a href="#">Discount Voucher</a>
+                            </li>
+                            <li>
+                                <a href="#">Summer Collection</a>
+                            </li>
+                            <li>
+                                <a href="#">Popular Products</a>
+                            </li>
+                            <li>
+                                <a href="#">Best Sellers</a>
+                            </li>
                         </ul>
-                
+
                     </div>
                     <!-- /.col col-2 -->
                     <div class="col col-2">
                         <div class="ul-title">Brands</div>
                         <ul>
-                            <li><a href="#">Giorgio Armani</a></li>
-                            <li><a href="#">Versace</a></li>
-                            <li><a href="#">Chanel</a></li>
-                            <li><a href="#">Gucci</a></li>
+                            <li>
+                                <a href="#">Giorgio Armani</a>
+                            </li>
+                            <li>
+                                <a href="#">Versace</a>
+                            </li>
+                            <li>
+                                <a href="#">Chanel</a>
+                            </li>
+                            <li>
+                                <a href="#">Gucci</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- /.col col-2 -->
                     <div class="col col-2">
-                        <div class="ul-title">Men shop</div>
-                        <ul>
-                            <li><a href="#">Suit Jacket</a></li>
-                            <li><a href="#">Sweater</a></li>
-                            <li><a href="#">Shirt</a></li>
-                            <li><a href="#">Tops</a></li>
-                        </ul>
-                    </div>
-                    <!-- /.col col-2 -->
-                    <div class="col col-2">
-                        <div class="ul-title">Woman shop</div>
-                        <ul>
-                            <li><a href="#">Dresses</a></li>
-                            <li><a href="#">Sweater</a></li>
-                            <li><a href="#">Shirt</a></li>
-                            <li><a href="#">Tops</a></li>
-                        </ul>
-                    </div>
-                    <!-- /.col col-2 -->
+                            <div class="ul-title">Men shop</div>
+                            <ul>
+                                <li>
+                                    <a href="women_subcutegory.html">Suit Jacket</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Sweater</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Shirt</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Tops</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col col-2 -->
+                        <div class="col col-2">
+                            <div class="ul-title">Woman shop</div>
+                            <ul>
+                                <li>
+                                    <a href="women_subcutegory.html">Dresses</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Sweater</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Shirt</a>
+                                </li>
+                                <li>
+                                    <a href="women_subcutegory.html">Tops</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col col-2 -->
                     <div class="col col-2">
                         <div class="ul-title">Accesories</div>
                         <ul>
-                            <li><a href="#">Sunglasses</a></li>
-                            <li><a href="#">Clock</a></li>
-                            <li><a href="#">Bags</a></li>
-                            <li><a href="#">Hats</a></li>
+                            <li>
+                                <a href="#">Sunglasses</a>
+                            </li>
+                            <li>
+                                <a href="#">Clock</a>
+                            </li>
+                            <li>
+                                <a href="#">Bags</a>
+                            </li>
+                            <li>
+                                <a href="#">Hats</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- /.col col-2 -->
                     <div class="col col-2">
                         <div class="ul-title">Help</div>
                         <ul>
-                            <li><a href="#">F.A.Q.</a></li>
-                            <li><a href="#">Shipping</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li>
+                                <a href="#">F.A.Q.</a>
+                            </li>
+                            <li>
+                                <a href="#">Shipping</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- /.col col-2 -->
@@ -483,36 +606,46 @@
             <!-- /.footer-category -->
             <div class="container social">
                 <div class="row d-flex justify-content-between">
-                    
-                <div class="col col-6 social-nav d-flex align-items-center">
-                    <div>Follow us</div>
-                    <ul>
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-pinterest-p"></i></li>
-                        <li><img src="img/instagram.png" alt=""></li>
-                        <li><img src="img/youtube.png" alt=""></li>
-                        <li><i class="fab fa-behance"></i></li>
-                        <li><i class="fab fa-dribbble"></i></li>
-                        <li><img src="img/google-plus.png" alt=""></li>                      
-                    </ul>
+
+                    <div class="col col-6 social-nav d-flex align-items-center">
+                        <div>Follow us</div>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href=""><img src="img/instagram.png" alt=""></a></li>
+                                <li><a href=""><img src="img/youtube.png" alt=""></a></li>
+                                <li><a href=""><i class="fab fa-behance"></i></a></li>
+                                <li><a href=""><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href=""><img src="img/google-plus.png" alt=""></a></li>
+                            </ul>
+                    </div>
+                    <!-- /.social-nav -->
+                    <div class="col col-6 we-acccept d-flex justify-content-end align-items-center">
+                        <div class="pay-nav">We accept</div>
+                        <ul>
+                            <li>
+                                <img src="img/paypal.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/mastercard.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/maestro.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/visa.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/discover.jpg" alt="">
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- /.we-acccept -->
+
                 </div>
-                <!-- /.social-nav -->
-                <div class="col col-6 we-acccept d-flex justify-content-end align-items-center">
-                    <div class="pay-nav">We accept</div>
-                    <ul>
-                        <li><img src="img/paypal.jpg" alt=""></li>
-                        <li><img src="img/mastercard.jpg" alt=""></li>
-                        <li><img src="img/maestro.jpg" alt=""></li>
-                        <li><img src="img/visa.jpg" alt=""></li>
-                        <li><img src="img/discover.jpg" alt=""></li>
-                    </ul>
-                    
-                </div>
-                <!-- /.we-acccept -->
-            
-            </div>
-            <!-- /.row -->
+                <!-- /.row -->
             </div>
             <!-- /.conteiner -->
         </div>
@@ -522,7 +655,7 @@
                 <span>© 2016 Privilege. All Rights Reserved.</span>
             </div>
             <!-- /.container -->
-            
+
         </div>
         <!-- /.copyright -->
 
@@ -537,6 +670,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- slick-slider -->
     <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/tabs.js"></script>
     <!-- Init plugins -->
     <script src="js/init.js"></script>
 </body>
